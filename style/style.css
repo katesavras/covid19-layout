@@ -92,24 +92,21 @@ header {
 }
 
 .content {
-    display: flex;
-    justify-content: space-between;
     padding-top: 15px;
 
 }
 
 .topic {
-    width: 40%;
-    /*max-height: 400px;*/
-    margin-top: 120px;
-    margin-bottom: 20px;
+    /*margin-top: 120px;*/
+    /*margin-bottom: 20px;*/
+text-align: center;
 }
 
 .quarantine-img {
-width: 60%;
-    max-width: 700px;
-    height: auto;
+  width: 80%;
+height: auto;
 }
+
 
 .topic__covid {
     font-size: 22px;
@@ -125,10 +122,11 @@ width: 60%;
 }
 
 .topic__text {
-    font-size: 18px;
+    font-size: 23px;
     line-height: 30px;
     color: #4B4F51;
     padding-top: 25px;
+
 }
 
 .topic__btn {

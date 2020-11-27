@@ -3,10 +3,7 @@
         width: 80%;
         max-width: 1024px;
     }
-    .quarantine-img{
-       width: 50%;
-        height: auto;
-    }
+
     .logo{
         padding: 0;
     }
@@ -30,10 +27,7 @@
     .navigation__list li:hover:before{
         visibility: hidden;
     }
-.quarantine-img{
-    width: 100%;
-    height: auto;
-}
+
 
     .menu__btn {
         display: flex;
@@ -278,7 +272,14 @@
     }
 }
 
-@media (max-width: 576px) {}
+@media (max-width: 576px) {
+    .footer__covid{
+       display: none;
+    }
+    .media{
+      width: 60%;
+    }
+}
 
 
 
