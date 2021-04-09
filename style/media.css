@@ -33,12 +33,13 @@
         display: flex;
         align-items: center;
         position: fixed;
+
         top: 20px;
         left: 20px;
         width: 26px;
         height: 26px;
         cursor: pointer;
-        z-index: 1;
+        z-index: 110;
     }
 
     .menu__btn > span,
@@ -60,8 +61,10 @@
     }
 
     .menu__box {
+
         display: block;
         position: fixed;
+        z-index: 105;
         visibility: hidden;
         top: 0;
         left: -100%;
