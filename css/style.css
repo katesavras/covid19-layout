@@ -1,0 +1,283 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+header {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.container {
+  width: 80%;
+  max-width: 1440px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding-left: 10%;
+}
+
+.logo__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #035755;
+  padding-left: 13px;
+}
+
+.logo__picture {
+  width: 60px;
+  height: 66px;
+}
+
+#menu__toggle {
+  display: none;
+}
+
+.navigation__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 0;
+}
+
+.navigation__list li {
+  font-size: 1rem;
+  line-height: 120%;
+  color: #035755;
+  margin-right: 20px;
+  position: relative;
+}
+
+.navigation__list li:hover {
+  color: #FA5652;
+}
+
+.navigation__list li:hover:before {
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: -30px;
+  left: 45%;
+  width: 7px;
+  height: 7px;
+  background: red;
+  border-radius: 50px;
+}
+
+.navigation__btn {
+  border: 1px solid rgba(255, 56, 61, 1);
+  border-radius: 46px;
+  outline: none;
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 120%;
+  color: #FF383D;
+  padding: 13px 42px;
+  margin: 0 25px 0 0;
+}
+
+.content {
+  padding-top: 15px;
+}
+
+.topic {
+  text-align: center;
+}
+
+.quarantine-img {
+  width: 80%;
+  height: auto;
+}
+
+.topic__covid {
+  font-size: 22px;
+  font-weight: bold;
+  color: #FA5652;
+}
+
+.topic__title {
+  font-size: 45px;
+  font-weight: bold;
+  color: #035755;
+  padding-top: 10px;
+}
+
+.topic__text {
+  font-size: 23px;
+  line-height: 30px;
+  color: #4B4F51;
+  padding-top: 25px;
+}
+
+.topic__btn {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 120%;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  background: #FB4C47;
+  border: 1px solid #FB4C47;
+  outline: none;
+  border-radius: 65px;
+  padding: 15px 42px;
+  margin-top: 20px;
+}
+
+/*section covid*/
+.covid {
+  display: flex;
+  position: relative;
+  padding-top: 20px;
+}
+
+.covid__description {
+  padding-top: 100px;
+}
+
+/*section contagion*/
+.contagion {
+  text-align: center;
+  position: relative;
+}
+
+.card {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  position: relative;
+  z-index: 100;
+}
+
+.card > div {
+  width: 30%;
+  background: #FFFFFF;
+  box-shadow: 0 5px 80px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+/*section symptoms*/
+.symptoms {
+  text-align: center;
+  padding-top: 50px;
+  position: relative;
+}
+
+/*section prevention*/
+.prevention {
+  text-align: center;
+  position: relative;
+}
+
+.examples {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+
+.method {
+  display: flex;
+  padding-top: 20px;
+}
+
+.picture_left {
+  display: none;
+}
+
+.picture_right {
+  display: none;
+}
+
+.method__box {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.method__number {
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 64px;
+  text-transform: capitalize;
+  color: #FA5652;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgba(250, 86, 82, 0.05);
+  padding: 10px 10px;
+}
+
+/*section world*/
+.world {
+  display: flex;
+}
+
+.map {
+  position: relative;
+}
+
+table {
+  margin-left: 20px;
+  background-color: white;
+}
+
+/*section message*/
+.message {
+  text-align: center;
+  padding-top: 100px;
+  position: relative;
+}
+
+/*section footer*/
+.footer {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.footer__nav {
+  display: flex;
+  align-items: center;
+}
+
+.footer__logo {
+  display: flex;
+  width: 25%;
+}
+
+.footer__covid {
+  display: flex;
+  align-items: center;
+  margin-left: 0;
+}
+
+.list {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.media {
+  width: 25%;
+}
+
+.media a {
+  margin-left: 10px;
+}

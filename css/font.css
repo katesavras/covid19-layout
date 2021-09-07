@@ -1,0 +1,140 @@
+.black {
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #4B4F51;
+  padding-top: 15px;
+}
+
+.green {
+  font-weight: bold;
+  font-size: 43px;
+  line-height: 60px;
+  text-transform: capitalize;
+  color: #035755;
+  padding-top: 10px;
+}
+
+.red {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 38px;
+  color: #FA5652;
+  padding-top: 25px;
+}
+
+.card__title {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  text-transform: capitalize;
+  color: #035755;
+  padding-top: 50px;
+}
+
+.card__text {
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #4B4F51;
+  padding-top: 13px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.method__title {
+  font-weight: 500;
+  font-size: 47px;
+  line-height: 69px;
+  text-transform: capitalize;
+  color: #035755;
+}
+
+.life__reports {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 45px;
+  color: #035755;
+}
+
+.country__title {
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 25px;
+  color: #13615F;
+  padding-left: 5px;
+}
+
+.country__number {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #035755;
+  text-align: center;
+  position: relative;
+}
+
+.country__number:after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 0;
+  height: 0;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-top: 10px solid #F44A45;
+  border-radius: 2px;
+
+}
+
+.plus:after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 0;
+  height: 0;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-top: 10px solid #128E5A;;
+  border-radius: 2px;
+  transform: rotate(-180deg);
+
+}
+
+.message__title {
+  font-size: 43px;
+  line-height: 55px;
+  color: #0C6C44;
+}
+
+
+.item__text {
+  font-size: 18px;
+  line-height: 22px;
+  color: #0C6C44;
+  list-style: none;
+}
+
+.footer__covid {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #035755;
+}
+
+input::placeholder {
+  font-size: 22px;
+  line-height: 26px;
+  color: #758681;
+}
+
+a {
+  text-decoration: none;
+}
+
+.list li > a {
+  color: #035755
+}
